@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+/*Setting font-size default size to 10px for easier calculation in units*/
+html {
+  height: 100%;
+  width: 100%;
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Playfair Display";
+  font-size: 1.6rem;
+}
+/* Setting a Flexbox Layout for the page */
+#main {
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+}
+
+#main > * {
+  flex: 1 100%;
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+#headline {
+  font-size: 3rem;
+}
+
+#img-div {
+  margin-bottom: 0px;
+}
+#image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  max-width: 100%;
+  width: 100%;
+}
+
+#img-caption {
+  font-size: 2rem;
+  padding: 2.5rem;
+  font-style: italic;
+}
+
+h2 {
+  margin: 0px;
+  font-size: 3rem;
+}
+
+#tribute-info {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#timeline {
+  max-width: 80%;
+  text-align: left;
+  list-style: square;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  padding: 1.5rem;
+}
